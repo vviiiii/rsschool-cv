@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient( rgba(255, 255, 255, 0) .9em, rgba(0, 0, 0, .15) 1em) 0 0, linear-gradient(90deg, rgba(255, 255, 255, 0) .9em, rgba(0, 0, 0, .15) 1em) 0 0;
+    background-size: 1em 1em;
+    background-color: ivory;
+}
+
+div.wrapper {
+    box-sizing: border-box;
+    width: 1024px;
+    margin: 80px auto;
+    padding: 20px 80px;
+    background-color: #FFF;
+    border-radius: .2rem;
+    box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1), 0 0.8rem 3.2rem -0.8rem rgba(0, 0, 0, 0.8);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.4em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #1f1faf;
+}
+
+ul {
+    list-style-type: square;
+}
+
+section {
+    font-size: 1.2em;
+}
+
+pre,
+code {
+    font-family: monospace, monospace;
+}
+
+pre {
+    overflow: auto;
+}
+
+pre>code {
+    display: block;
+    padding: 5px;
+    word-wrap: normal;
+}
+
+.avatar {
+    max-width: 20%;
+}
